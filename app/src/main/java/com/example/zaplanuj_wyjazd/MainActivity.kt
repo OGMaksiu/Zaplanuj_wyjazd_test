@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         val datawyj = findViewById<TextView>(R.id.datawyj)
         val datakon = findViewById<TextView>(R.id.datakon)
         val iloscdni = findViewById<TextView>(R.id.iloscdni)
-
+//
         kalendarz.minDate = Date().time
         kalendarz.maxDate = Date().time + 63072000000
 
